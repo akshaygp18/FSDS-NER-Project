@@ -9,5 +9,4 @@ datasets
 transformers[sentencepiece]
 folium==0.2.1
 tensorflow
-### local packages -
 -e . # << uncomment this to install from setup.py

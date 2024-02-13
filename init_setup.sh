@@ -11,13 +11,13 @@ do
     mkdir -p "src/NER_"$DIR
     echo [$(date)]: "Creating __init__.py inside above folders"
     touch "src/NER_"$DIR/"__init__.py" "src/NER_"$DIR/$DIR".py"
-    echo "from src.NER_"$DIR"."$DIR" import *" > "src/NER_"$DIR/"__init__.py"
+    echo "from src.NER_"$DIR"."$DIR" import *" >> "src/NER_"$DIR/"__init__.py"
 done
 
 echo [$(date)]: "install requirements"
 pip install -r requirements.txt -q
 echo [$(date)]: "install pytorch dependency"
-pip install torch --extra-index-url https://download.pytorch.org/whl/cu113 -q
+pip install torch --extra-index-url https://download.pytorch.org/whl/cu118 -q
 echo [$(date)]: "END"
 
 # to remove everything -
