@@ -1,7 +1,7 @@
 import argparse
 import os
 import logging
-from src.NER_utils import read_yaml, create_directories
+from src.Config import read_yaml, create_directories
 from datasets import load_dataset
 
 STAGE = "Data Ingestion stage" ## <<< change stage name 
