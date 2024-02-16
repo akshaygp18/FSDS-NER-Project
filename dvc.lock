@@ -7,11 +7,13 @@ stages:
       md5: 720c5f130ac264fb045ad96e9d7c671d
       size: 1574
     - path: src/NER_utils
-      md5: 784ee281c79d53d83de43be02d8d342f.dir
-      size: 1996
+      hash: md5
+      md5: 7acff466254f23852124e127d11bf48b.dir
+      size: 1936
       nfiles: 4
     outs:
     - path: artifacts/cache_dir
-      md5: f5a7aa5e24f958044bac1f77a1ac854c.dir
-      size: 475668764
-      nfiles: 182
+      hash: md5
+      md5: 239376aee196de84edbd518f2c065a80.dir
+      size: 9571970
+      nfiles: 10
